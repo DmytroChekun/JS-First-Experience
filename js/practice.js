@@ -53,7 +53,8 @@ while (UserNumber) {
 }
 alert(result);
 
-const percentagePerYear = (`${(UserDepositValue/100)*5}`);
+
 let UserDepositValue = prompt(`Enter the deposit amount to the bank in 2 months for 5% per year`);
+const percentagePerYear = (`${(UserDepositValue/100)*5}`);
 let twoMontsPercentage = (`${(percentagePerYear/6).toFixed(3)}`);
-alert(`Your percentage fot 2 months = ${twoMontsPercentage}`);
+alert(`Your percentage fot 2 months = ${twoMontsPercentage}$`);
